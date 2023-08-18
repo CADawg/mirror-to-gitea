@@ -1,3 +1,4 @@
+require('dotenv').config();
 const {Octokit} = require('@octokit/rest');
 const request = require('superagent');
 const {default: PQueue} = require('p-queue');
